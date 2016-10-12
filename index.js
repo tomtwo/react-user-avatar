@@ -28,7 +28,7 @@ class UserAvatar extends React.Component {
     let {
       borderRadius='100%',
       src,
-      srcset,
+      srcSet,
       name,
       color,
       colors=defaultColors,
@@ -61,7 +61,7 @@ class UserAvatar extends React.Component {
 
     let inner, classes = [className, 'UserAvatar'];
     if (src || srcset) {
-      inner = <img className="UserAvatar--img" style={imageStyle} src={src} srcset={srcset} alt={name} />
+      inner = <img className="UserAvatar--img" style={imageStyle} src={src} srcSet={srcset} alt={name} />
     } else {
       let background;
       if (color) {
