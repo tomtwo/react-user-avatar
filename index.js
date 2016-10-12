@@ -60,8 +60,8 @@ class UserAvatar extends React.Component {
     }
 
     let inner, classes = [className, 'UserAvatar'];
-    if (src || srcset) {
-      inner = <img className="UserAvatar--img" style={imageStyle} src={src} srcSet={srcset} alt={name} />
+    if (src || srcSet) {
+      inner = <img className="UserAvatar--img" style={imageStyle} src={src} srcSet={srcSet} alt={name} />
     } else {
       let background;
       if (color) {
